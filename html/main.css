@@ -1,0 +1,16 @@
+html{
+  font-family: fantasy;
+  background-color: rgb(128, 128, 192);
+  text-align: center;
+}
+.header{
+  font-size: 40px;
+}
+.hr{
+  height:5px; 
+  width:75%; 
+  border-width:0; 
+  color:black; 
+  background-color:rgb(128, 128, 192); 
+  padding: 5px;
+}
