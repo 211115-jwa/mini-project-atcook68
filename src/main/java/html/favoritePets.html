@@ -14,22 +14,18 @@
       </div>
       <div class="formAdd">
         <h2 id="title1">Tell us about your pet!</h2>
-        <form action="http://localhost:8080/rxs" method="POST">
+        <form action="http://localhost:8080/favoritePets" method="POST">
 
-          <label for="id" id="id" value="Id">Name</label>
-          <input type="number" id="id">
+          <label for="name" id="name" >Name</label>
+          <input type="text" name="name" id="name">
           <br>
           <br>
-          <label for="name" id="name" value="Name">Quantity</label>
-          <input type="text" id="name">
+          <label for="age" id="age" >Age</label>
+          <input type="number" name="age" id="age">
           <br>
           <br>
-          <label for="age" id="age" value="Age">Age</label>
-          <input type="number" id="age">
-          <br>
-          <br>
-          <label for="breed" id="breed" value="Breed">Breed</label>
-          <input type="text" id="breed">
+          <label for="breed" id="breed" >Breed</label>
+          <input type="text" name="breed" id="breed">
           <br>
           <br>
           <button type="submit" id="add">Add</button>
@@ -37,20 +33,12 @@
       </div>
       <hr class="hr">
       <div class="formGetDIByName">
-        <h2 id="title1">Pet information</h2>
-        <form action="http://localhost:8080/rxs" method="Get">
 
-          <label for="name" id="name" value="Name">Name</label>
-          <input type="text" id="name">
-          <br>
-          <br>
-          <button type="submit" id="getDI">Submit</button>
-        </form>
       </div>
       <hr class="hr">
       <div class="formGetAll">
         <h2 class="title">All of the pets submitted so far</h2>
-        <form action="http://localhost:8080/rxs" method="GET">
+        <form action="http://localhost:8080/favoritePets" method="GET">
           <button type="submit" id="getAll">View all the favorite pets!</button>
         </form>
       </div>

@@ -1,7 +1,7 @@
 html{
   font-family: fantasy;
-  background-color: rgb(128, 128, 192);
-  text-align: center;
+  background-color: rgb(255, 128, 0))
+  text-align: left;
 }
 .header{
   font-size: 40px;
@@ -11,6 +11,6 @@ html{
   width:75%; 
   border-width:0; 
   color:black; 
-  background-color:rgb(128, 128, 192); 
+  background-color:rgb(255, 128, 192); 
   padding: 5px;
 }
